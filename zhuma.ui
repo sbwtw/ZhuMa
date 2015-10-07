@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ZhuMa</class>
+ <widget class="QMainWindow" name="ZhuMa">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ZhuMa</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="lab_schoolIcon">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="sca_buttonList">
+      <property name="styleSheet">
+       <string notr="true">border:none;</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="wgt_buttons">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>442</width>
+         <height>599</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="MetroButton" name="mbtn_schoolWebSite"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="MetroButton" name="mbtn_boYinCheck"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="MetroButton" name="mbtn_luquCheck"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="MetroButton" name="mbtn_chengjiCheck"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="MetroButton" name="mbtn_library"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="MetroButton" name="mbtn_keChengBiao"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="MetroButton" name="mbtn_discover"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="MetroButton" name="mbtn_shop"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="MetroButton" name="mbtn_feedBack"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="MetroButton" name="mbtn_about"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>442</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_mainMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="act_exitLogin"/>
+    <addaction name="act_exitZhuMa"/>
+    <addaction name="act_aboutZhuMa"/>
+   </widget>
+   <addaction name="menu_mainMenu"/>
+  </widget>
+  <action name="act_exitLogin">
+   <property name="text">
+    <string>退出登陆</string>
+   </property>
+  </action>
+  <action name="act_exitZhuMa">
+   <property name="text">
+    <string>退出竹馬</string>
+   </property>
+  </action>
+  <action name="act_aboutZhuMa">
+   <property name="text">
+    <string>關於竹馬</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MetroButton</class>
+   <extends>QPushButton</extends>
+   <header>metrobutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

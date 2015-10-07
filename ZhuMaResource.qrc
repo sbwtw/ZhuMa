@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/ZhuMa">
+        <file>resources/ZhuMa.png</file>
+        <file>resources/Npumd.png</file>
+        <file>resources/icons/about.png</file>
+        <file>resources/icons/byzcCheck.png</file>
+        <file>resources/icons/cjCheck.png</file>
+        <file>resources/icons/feedReport.png</file>
+        <file>resources/icons/gkCheck.png</file>
+        <file>resources/icons/kcb.png</file>
+        <file>resources/icons/library.png</file>
+        <file>resources/icons/schoolWeb.png</file>
+        <file>resources/icons/discover.png</file>
+        <file>resources/icons/shop.png</file>
+    </qresource>
+</RCC>
